@@ -16,7 +16,7 @@ void Nixie(unsigned char location,number)
 		case 8:P2_4 = 0; P2_3 = 0; P2_2 = 0;break;
 	}
 	P0 = nixietable[number];
-	//数码管消影
-	Delay(100);
+	//娑堝奖
+	Delay(100);//100寰
 	P0 = 0x00;
 }
