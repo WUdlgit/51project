@@ -1,4 +1,4 @@
-//void Delay(unsigned char xms)	//ºÁÃë
+//void Delay(unsigned char xms)	//æ¯«ç§’
 //{
 //		unsigned char data i, j;
 //		
@@ -13,9 +13,9 @@
 //		}
 //}
 
-#include <INTRINS.H>   //_nop_µÄÍ·ÎÄ¼þ
+#include <INTRINS.H>   //_nop_å¤´æ–‡ä»¶
 
-void Delay(unsigned char xus)	//Î¢Ãë
+void Delay(unsigned char xus)	//å¾®ç§’
 {
 		while(xus--)
 		{
