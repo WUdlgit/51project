@@ -44,7 +44,7 @@ void main()
 					  LCD_ShowNum(2,1,Password,4);//更新显示
 					}
 				}
-			if(KeyNum ==12)
+			if(KeyNum ==12)     //s12按键按下，表示取消（全部清零）
 			{
 				Password = 0;
 				count = 0;      //计次清零
